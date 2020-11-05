@@ -1,0 +1,18 @@
+.banner {
+  background-image: url('./../../../assets/banner@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 800px;
+  width: 100%;
+
+  margin-top: 65px;
+}
+
+@media (max-width: 400px) {
+  .banner {
+    background-image: url('./../../../assets/banner.png');
+
+    height: 375px;
+  }
+}

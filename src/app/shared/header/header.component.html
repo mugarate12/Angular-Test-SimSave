@@ -1,8 +1,8 @@
 <header class="header-container" >
-  <img src="./../../../assets/LogoSimSave.svg" alt="Sim Save Logo" class="header-logo">
+  <img src="./../../../assets/LogoSimSave.svg" alt="Sim Save Logo" class="header-logo" (click)="goToHome()">
   
   <div class="header-btn-container">
-    <a mat-raised-button class="header-btn-login" href="https://www.google.com/" target="_blank">Entrar</a>
-    <a mat-raised-button class="header-btn-register" color="primary">Cadastre-se</a>
+    <a mat-raised-button class="header-btn-login" (click)="goToLogin()">Entrar</a>
+    <a mat-raised-button class="header-btn-register" color="primary" (click)="goToLogin()">Cadastre-se</a>
   </div>
 </header>
