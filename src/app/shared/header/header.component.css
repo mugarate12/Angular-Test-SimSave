@@ -1,0 +1,43 @@
+.header-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 65px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #FFF;
+
+  box-shadow: 1px 1px 9px #00000026;
+}
+
+.header-logo {
+  width: 118px;
+  height: 30px;
+
+  margin-left: 12px;
+}
+
+@media (max-width: 400px) {
+  .header-logo {
+    width: 34px;
+    
+    object-fit: cover;
+    object-position: left;
+  }
+}
+
+.header-btn-container {
+  margin-right: 17px;
+}
+
+.header-btn-login {
+  color: #2196F3;
+
+  margin-right: 12px;
+}
