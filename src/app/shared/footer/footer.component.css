@@ -88,5 +88,32 @@
 }
 
 /* a partir daqui, apresentar em mobile */
-@media (max-width: 750px) {
+@media (max-width: 770px) {
+  .footer-container {
+    height: 300px;
+    margin-top: 60px;;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .contact-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer-container {
+    height: 300px;
+    margin-top: 100px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .contact-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
 }
