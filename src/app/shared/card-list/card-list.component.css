@@ -1,0 +1,20 @@
+.card-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-left: 16px;
+}
+
+@media (max-width: 1050px) {
+  .card-list-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-list-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

@@ -11,6 +11,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { CardComponent } from './shared/card/card.component';
+import { CardListComponent } from './shared/card-list/card-list.component';
+import { RegisterCardComponent } from './shared/register-card/register-card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CardComponent } from './shared/card/card.component';
     HomeComponent,
     LoginComponent,
     BannerComponent,
-    CardComponent
+    CardComponent,
+    CardListComponent,
+    RegisterCardComponent
   ],
   imports: [
     BrowserModule,

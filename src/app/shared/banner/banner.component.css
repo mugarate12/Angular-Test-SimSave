@@ -3,15 +3,51 @@
   background-repeat: no-repeat;
   background-size: contain;
 
-  height: 800px;
+  height: 600px;
   width: 100%;
 
   margin-top: 65px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1000px) {
+  .banner {
+    background-image: url('./../../../assets/banner@2x.png');
+
+    height: 500px;
+  }
+}
+
+@media (max-width: 850px) {
+  .banner {
+    background-image: url('./../../../assets/banner@2x.png');
+
+    height: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner {
+    background-image: url('./../../../assets/banner@2x.png');
+
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
   .banner {
     background-image: url('./../../../assets/banner.png');
+    background-size: cover;
+    background-position: 93%;
+
+    height: 375px;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner {
+    background-image: url('./../../../assets/banner.png');
+    background-size: cover;
+    background-position: 85%;
 
     height: 375px;
   }
