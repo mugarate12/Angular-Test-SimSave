@@ -13,6 +13,8 @@ import { BannerComponent } from './shared/banner/banner.component';
 import { CardComponent } from './shared/card/card.component';
 import { CardListComponent } from './shared/card-list/card-list.component';
 import { RegisterCardComponent } from './shared/register-card/register-card.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -23,14 +25,16 @@ import { RegisterCardComponent } from './shared/register-card/register-card.comp
     BannerComponent,
     CardComponent,
     CardListComponent,
-    RegisterCardComponent
+    RegisterCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

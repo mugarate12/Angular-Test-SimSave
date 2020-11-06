@@ -1,0 +1,32 @@
+.footer-container {
+  height: 200px;
+  width: 100%;
+
+  background-color: #F6F6F9;
+}
+
+.network-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-container {
+  height: 42px;
+  width: 42px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 12px;
+
+  border-radius: 50%;
+
+  background-color: #B3BDCC;
+}
+
+.icon {
+  color: #FFF;
+  font-size: 20px;
+}
