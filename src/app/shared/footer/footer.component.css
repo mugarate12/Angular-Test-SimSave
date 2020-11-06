@@ -2,10 +2,22 @@
   height: 200px;
   width: 100%;
 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+
   background-color: #F6F6F9;
 }
 
+.footer-logo-img {
+  justify-self: center;
+  align-self: center;
+}
+
 .network-container {
+  justify-self: center;
+  align-self: center;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,4 +41,52 @@
 .icon {
   color: #FFF;
   font-size: 20px;
+}
+
+.contact-container {
+  justify-self: center;
+  align-self: center;
+
+  margin-top: 55px;
+}
+
+.contact-title-container {
+  justify-self: center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 5px;
+}
+
+.contact-title {
+  margin-left: 20px;
+
+  font-size: 26px;
+  color: #B3BDCC;
+}
+
+.contact-content {
+  font-size: 16px;
+  max-width: 35ch;
+  line-height: 3ch;
+
+  color: #B3BDCC;
+}
+
+@media (max-width: 980px) {
+  .contact-container {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 870px) {
+  .contact-container {
+    margin-top: 80px;
+  }
+}
+
+/* a partir daqui, apresentar em mobile */
+@media (max-width: 750px) {
 }
