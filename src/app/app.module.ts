@@ -7,6 +7,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { BannerComponent } from './shared/banner/banner.component';
@@ -34,6 +35,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
+    MatInputModule,
     FontAwesomeModule
   ],
   providers: [],
