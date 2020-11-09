@@ -16,6 +16,7 @@ import { CardListComponent } from './shared/card-list/card-list.component';
 import { RegisterCardComponent } from './shared/register-card/register-card.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LoginCardFormComponent } from './shared/login-card-form/login-card-form.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CardComponent,
     CardListComponent,
     RegisterCardComponent,
-    FooterComponent
+    FooterComponent,
+    LoginCardFormComponent
   ],
   imports: [
     BrowserModule,
