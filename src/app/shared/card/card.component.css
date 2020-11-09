@@ -44,8 +44,6 @@
   text-align: center;
 
   margin-bottom: 20px;
-  
-  color: #1767E5;
 }
 
 .content {
@@ -72,6 +70,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.card-footer-btn {
+  color: #878787;
 }
 
 @media (max-width: 1200px) {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
+  @Input() title: string;
+  @Input() titleColor: string;
+  @Input() btnTextColor?: string;
+  btnContent: string;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
+    if (this.title === 'URGENCY' || this.title === 'NURSING') {
+      this.btnContent = 'Saiba mais'
+    } else {
+      this.btnContent = 'Em Breve'
+    }
   }
 
 }

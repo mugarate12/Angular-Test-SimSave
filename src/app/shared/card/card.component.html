@@ -1,14 +1,14 @@
 <mat-card class="card-container">
   <div class="card-header">
-    <div class="card-pick"></div>
+    <div class="card-pick" [ngStyle]="{'background-color': titleColor}"></div>
   </div>
 
   <div class="card-body">
-    <h2 class="title">Student</h2>
+    <h2 class="title" [ngStyle]="{'color': titleColor}">{{title}}</h2>
     <p class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
   </div>
 
   <div class="card-footer">
-    <a mat-stroked-button >Em Breve</a>
+    <a mat-stroked-button class="card-footer-btn" [ngStyle]="{'color': btnTextColor}">{{btnContent}}</a>
   </div>
 </mat-card>
